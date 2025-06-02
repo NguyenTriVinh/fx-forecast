@@ -55,50 +55,6 @@ These metrics allow for both error quantification and performance comparison bet
 
 ---
 
-## ⚙️ Installation & Setup
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/NguyenTriVinh/fx-forecast.git
-cd fx-forecast
-```
-
-### 2. (Optional) Create a virtual environment
-
-```bash
-python -m venv venv
-source venv/bin/activate        # On Linux/macOS
-venv\Scripts\activate         # On Windows
-```
-
-### 3. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## 🧪 How to Run
-
-You can execute the Jupyter notebooks or Python scripts provided for each model. Example:
-
-```bash
-# Launch ARIMAX notebook
-jupyter notebook ARIMAX/ARIMAX_USD_Euro.ipynb
-```
-
-To train a model like LSTM or GRU, navigate to the corresponding folder and run:
-
-```bash
-python train_lstm.py
-```
-
-> Note: Please make sure the training and testing datasets are generated before running the models.
-
----
-
 ## 📦 Dependencies
 
 Core technologies used:
@@ -110,5 +66,3 @@ Core technologies used:
 - TensorFlow / Keras
 - LightGBM
 - Matplotlib / Seaborn
-
-You can find the complete list in `requirements.txt`.
